@@ -23,6 +23,14 @@
 		FFE4C17817C1B216005B4CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE4C15317C1B215005B4CF6 /* Foundation.framework */; };
 		FFE4C18017C1B216005B4CF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFE4C17E17C1B216005B4CF6 /* InfoPlist.strings */; };
 		FFE4C18317C1B216005B4CF6 /* AnytimeYouTube1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4C18217C1B216005B4CF6 /* AnytimeYouTube1Tests.m */; };
+		FFE4C19A17C1B253005B4CF6 /* EmbedPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = FFE4C18C17C1B253005B4CF6 /* EmbedPlayer.html */; };
+		FFE4C19B17C1B253005B4CF6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE4C18D17C1B253005B4CF6 /* icon.png */; };
+		FFE4C19C17C1B253005B4CF6 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4C19117C1B253005B4CF6 /* NSObject+SBJSON.m */; };
+		FFE4C19D17C1B253005B4CF6 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4C19317C1B253005B4CF6 /* NSString+SBJSON.m */; };
+		FFE4C19E17C1B253005B4CF6 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4C19517C1B253005B4CF6 /* SBJsonBase.m */; };
+		FFE4C19F17C1B253005B4CF6 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4C19717C1B253005B4CF6 /* SBJsonParser.m */; };
+		FFE4C1A017C1B253005B4CF6 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4C19917C1B253005B4CF6 /* SBJsonWriter.m */; };
+		FFE4C1A217C1EAB6005B4CF6 /* cellYouTube.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE4C1A117C1EAB6005B4CF6 /* cellYouTube.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +66,20 @@
 		FFE4C17F17C1B216005B4CF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FFE4C18117C1B216005B4CF6 /* AnytimeYouTube1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnytimeYouTube1Tests.h; sourceTree = "<group>"; };
 		FFE4C18217C1B216005B4CF6 /* AnytimeYouTube1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnytimeYouTube1Tests.m; sourceTree = "<group>"; };
+		FFE4C18C17C1B253005B4CF6 /* EmbedPlayer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EmbedPlayer.html; sourceTree = "<group>"; };
+		FFE4C18D17C1B253005B4CF6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FFE4C18F17C1B253005B4CF6 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		FFE4C19017C1B253005B4CF6 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		FFE4C19117C1B253005B4CF6 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		FFE4C19217C1B253005B4CF6 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		FFE4C19317C1B253005B4CF6 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		FFE4C19417C1B253005B4CF6 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		FFE4C19517C1B253005B4CF6 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		FFE4C19617C1B253005B4CF6 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		FFE4C19717C1B253005B4CF6 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		FFE4C19817C1B253005B4CF6 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		FFE4C19917C1B253005B4CF6 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		FFE4C1A117C1EAB6005B4CF6 /* cellYouTube.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellYouTube.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +109,10 @@
 		FFE4C14517C1B215005B4CF6 = {
 			isa = PBXGroup;
 			children = (
+				FFE4C1A117C1EAB6005B4CF6 /* cellYouTube.xib */,
+				FFE4C18C17C1B253005B4CF6 /* EmbedPlayer.html */,
+				FFE4C18D17C1B253005B4CF6 /* icon.png */,
+				FFE4C18E17C1B253005B4CF6 /* SBJson */,
 				FFE4C15717C1B215005B4CF6 /* AnytimeYouTube1 */,
 				FFE4C17B17C1B216005B4CF6 /* AnytimeYouTube1Tests */,
 				FFE4C15017C1B215005B4CF6 /* Frameworks */,
@@ -158,6 +184,24 @@
 				FFE4C17E17C1B216005B4CF6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFE4C18E17C1B253005B4CF6 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4C18F17C1B253005B4CF6 /* JSON.h */,
+				FFE4C19017C1B253005B4CF6 /* NSObject+SBJSON.h */,
+				FFE4C19117C1B253005B4CF6 /* NSObject+SBJSON.m */,
+				FFE4C19217C1B253005B4CF6 /* NSString+SBJSON.h */,
+				FFE4C19317C1B253005B4CF6 /* NSString+SBJSON.m */,
+				FFE4C19417C1B253005B4CF6 /* SBJsonBase.h */,
+				FFE4C19517C1B253005B4CF6 /* SBJsonBase.m */,
+				FFE4C19617C1B253005B4CF6 /* SBJsonParser.h */,
+				FFE4C19717C1B253005B4CF6 /* SBJsonParser.m */,
+				FFE4C19817C1B253005B4CF6 /* SBJsonWriter.h */,
+				FFE4C19917C1B253005B4CF6 /* SBJsonWriter.m */,
+			);
+			path = SBJson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +281,9 @@
 				FFE4C16617C1B215005B4CF6 /* Default@2x.png in Resources */,
 				FFE4C16817C1B215005B4CF6 /* Default-568h@2x.png in Resources */,
 				FFE4C16B17C1B215005B4CF6 /* MainStoryboard.storyboard in Resources */,
+				FFE4C19A17C1B253005B4CF6 /* EmbedPlayer.html in Resources */,
+				FFE4C19B17C1B253005B4CF6 /* icon.png in Resources */,
+				FFE4C1A217C1EAB6005B4CF6 /* cellYouTube.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +321,11 @@
 				FFE4C15E17C1B215005B4CF6 /* main.m in Sources */,
 				FFE4C16217C1B215005B4CF6 /* AnytimeYouTube1AppDelegate.m in Sources */,
 				FFE4C16E17C1B215005B4CF6 /* AnytimeYouTube1ViewController.m in Sources */,
+				FFE4C19C17C1B253005B4CF6 /* NSObject+SBJSON.m in Sources */,
+				FFE4C19D17C1B253005B4CF6 /* NSString+SBJSON.m in Sources */,
+				FFE4C19E17C1B253005B4CF6 /* SBJsonBase.m in Sources */,
+				FFE4C19F17C1B253005B4CF6 /* SBJsonParser.m in Sources */,
+				FFE4C1A017C1B253005B4CF6 /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

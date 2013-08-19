@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AnytimeYouTube1ViewController : UIViewController
+@interface AnytimeYouTube1ViewController : UIViewController {
+    NSMutableArray *aryData;
+}
+@property (nonatomic,retain) IBOutlet UITableView *tvYouTube;
+@property (nonatomic,assign) IBOutlet UITableViewCell *cellYouTube;
 
 @end
